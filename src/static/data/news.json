@@ -1,0 +1,62 @@
+[
+  {
+    "id":0,
+    "banner" :"featured",
+    "author": "",
+    "title": "How to make a healthy diet?",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "/static/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg",
+    "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+    "alt": "pablo-merchan-montes",
+    "slug" :"healthy",
+    "list" : ["Healthy One","Healthy Two", "Healthy Three", "Healthy Four"]
+  },
+  {
+    "id":1,
+    "banner" :"featured",
+    "title": "Happy living and happy eating tips?",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "/static/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg",
+    "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+    "alt": "stefan-johnson",
+    "slug" :"eating",
+    "list" : ["Eating One","Eating Two", "Eating Three", "Eating Four"]
+  },
+  {
+    "id":2,
+    "banner" :"promotions",
+    "title": "Is Coconut good for your health?",
+    "date":"12-April-2022",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "/static/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg",
+    "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+    "alt": "gilles-lambert",
+    "slug" :"coconut",
+    "list" : ["Coconut One","Coconut Two", "Coconut Three" , "Coconut Four"]
+  },
+  {
+    "id":3,
+    "banner" :"career",
+    "title": "How to run a sushi business?",
+    "date":"18-April-2022",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "/static/images/news/ella-olsson-mmnKI8kMxpc-unsplash.jpg",
+    "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+    "alt": "ella-olsson",
+    "slug" :"sushi",
+    "list" : ["Sushi One","Sushi Two", "Sushi Three" , "Sushi Four"]
+  },
+  {
+    "id":4,
+    "banner" :"meeting",
+    "title": "Learning a fine dining experience.",
+    "date":"30-April-2022",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "/static/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg",
+    "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+    "alt": "louis-hansel",
+    "slug" :"dining",
+    "list" : ["Dining One","Dining Two", "Dining Three" , "Dining Four"]
+  }
+
+]
