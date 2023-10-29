@@ -7,6 +7,7 @@ import middleware from 'webpack-dev-middleware';
 import webmiddleware from 'webpack-dev-middleware';
 import path from 'path';
 import config from './webpack.config.dev.js';
+import RateLimit from 'express-rate-limit';
 
 const compiler = webpack(config);
 
@@ -16,8 +17,8 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 // set up rate limiter: maximum of five requests per minute
-var RateLimit = require('express-rate-limit');
-var limiter = RateLimit({
+
+const limiter = RateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // max 100 requests per windowMs
 });

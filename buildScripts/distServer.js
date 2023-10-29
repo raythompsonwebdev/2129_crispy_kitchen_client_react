@@ -3,14 +3,14 @@ import express from 'express';
 import path from 'path';
 import open from 'open';
 import compression from 'compression';
-
+import RateLimit from 'express-rate-limit';
 /* eslint-disable no-console */
 const port = 3000;
 const app = express();
 
 // set up rate limiter: maximum of five requests per minute
-var RateLimit = require('express-rate-limit');
-var limiter = RateLimit({
+
+const limiter = RateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // max 100 requests per windowMs
 });
