@@ -15,6 +15,16 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const PORT = process.env.PORT || 3000;
 const app = express();
 
+// set up rate limiter: maximum of five requests per minute
+var RateLimit = require('express-rate-limit');
+var limiter = RateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // max 100 requests per windowMs
+});
+
+// apply rate limiter to all requests
+app.use(limiter);
+
 // integrate webpack with express using middleware
 app.use(
   webmiddleware(compiler, {
