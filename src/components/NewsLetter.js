@@ -22,7 +22,7 @@ function NewsLetter() {
         <div className="row">
           <div className="col-lg-6 col-12">
             <img
-              src="/static/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg"
+              src="./static/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg"
               className="img-fluid newsletter-image"
               alt=""
             />

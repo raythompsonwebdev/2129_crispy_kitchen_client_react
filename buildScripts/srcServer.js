@@ -6,7 +6,7 @@ import webpack from 'webpack';
 import middleware from 'webpack-dev-middleware';
 import webmiddleware from 'webpack-dev-middleware';
 import path from 'path';
-import config from './webpack.config.dev.js';
+import config from '../webpack.config.dev.js';
 import RateLimit from 'express-rate-limit';
 
 const compiler = webpack(config);

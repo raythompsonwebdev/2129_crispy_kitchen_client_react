@@ -1,176 +1,179 @@
 [
   {
-    "menu":[
+    "menu": [
       {
-        "id":0,
-        "menutype":"regular",
-        "type":"breakfast",
-        "title":"Fresh Start",
-        "price":"24.50",
-        "rating":"4.4/5",
+        "id": 0,
+        "menutype": "regular",
+        "type": "breakfast",
+        "title": "Fresh Start",
+        "price": "24.50",
+        "rating": "4.4/5",
         "reviews": 128,
-        "image": "static/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg"
+        "image": "./static/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg"
       },
       {
-        "id":1,
-        "menutype":"special",
-        "type":"dinner",
-        "title":"Premium Steak",
-        "price":"74.2",
-        "rating":"3/5",
+        "id": 1,
+        "menutype": "special",
+        "type": "dinner",
+        "title": "Premium Steak",
+        "price": "74.2",
+        "rating": "3/5",
         "reviews": 56,
-        "image": "static/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg"
+        "image": "./static/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg"
       },
       {
-        "id":2,
-        "menutype":"regular",
-        "type":"dinner",
-        "title":"Salmon Set",
-        "price":"60",
-        "rating":"3/5",
+        "id": 2,
+        "menutype": "regular",
+        "type": "dinner",
+        "title": "Salmon Set",
+        "price": "60",
+        "rating": "3/5",
         "reviews": 76,
-        "image": "static/images/dinner/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg"
+        "image": "./static/images/dinner/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg"
       },
       {
-        "id":3,
-        "menutype":"regular",
-        "type":"lunch",
-        "title":"Super Steak Set",
-        "price":"32.75",
-        "rating":"4.4/5",
+        "id": 3,
+        "menutype": "regular",
+        "type": "lunch",
+        "title": "Super Steak Set",
+        "price": "32.75",
+        "rating": "4.4/5",
         "reviews": 128,
-        "image": "static/images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg"
+        "image": "./static/images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg"
       },
       {
-        "id":4,
-        "menutype":"regular",
-        "type":"lunch",
-        "title":"Bread & Steak Set",
-        "price":"42.50",
-        "rating":"3/5",
+        "id": 4,
+        "menutype": "regular",
+        "type": "lunch",
+        "title": "Bread & Steak Set",
+        "price": "42.50",
+        "rating": "3/5",
         "reviews": 84,
-        "image": "static/images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg"
+        "image": "./static/images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg"
       },
       {
-        "id":5,
-        "menutype":"regular",
-        "type":"breakfast",
-        "title":"Baked Creamy",
-        "price":"16.50",
-        "rating":"3/5",
+        "id": 5,
+        "menutype": "regular",
+        "type": "breakfast",
+        "title": "Baked Creamy",
+        "price": "16.50",
+        "rating": "3/5",
         "reviews": 64,
-        "image": "static/images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg"
+        "image": "./static/images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg"
       },
       {
-        "id":6,
-        "menutype":"special",
-        "type":"breakfast",
-        "title":"Burger Set",
-        "price":"24.50",
-        "rating":"3/5",
+        "id": 6,
+        "menutype": "special",
+        "type": "breakfast",
+        "title": "Burger Set",
+        "price": "24.50",
+        "rating": "3/5",
         "reviews": 32,
-        "image": "static/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
+        "image": "./static/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
       },
       {
-        "id":7,
-        "menutype":"special",
-        "type":"dinner",
-        "title":"Seafood Set",
-        "price":"65.50",
-        "rating":"4.4/5",
+        "id": 7,
+        "menutype": "special",
+        "type": "dinner",
+        "title": "Seafood Set",
+        "price": "65.50",
+        "rating": "4.4/5",
         "reviews": 102,
-        "image": "static/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg"
+        "image": "./static/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg"
       },
       {
-        "id":8,
-        "menutype":"special",
-        "type":"lunch",
-        "title":"Healthy Soup",
-        "price":"34.20",
-        "rating":"3/5",
+        "id": 8,
+        "menutype": "special",
+        "type": "lunch",
+        "title": "Healthy Soup",
+        "price": "34.20",
+        "rating": "3/5",
         "reviews": 64,
-        "image": "static/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg"
+        "image": "./static/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg"
       },
       {
-        "id":9,
-        "menutype":"special",
-        "type":"lunch",
-        "title":"Tooplate Soup",
-        "price":"24.20",
-        "rating":"3/5",
+        "id": 9,
+        "menutype": "special",
+        "type": "lunch",
+        "title": "Tooplate Soup",
+        "price": "24.20",
+        "rating": "3/5",
         "reviews": 50,
-        "image": "static/images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg"
+        "image": "./static/images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg"
       },
       {
-        "id":10,
-        "menutype":"special",
-        "type":"breakfast",
-        "title":"Morning Fresh",
-        "price":"12.50",
-        "rating":"4.3/5",
+        "id": 10,
+        "menutype": "special",
+        "type": "breakfast",
+        "title": "Morning Fresh",
+        "price": "12.50",
+        "rating": "4.3/5",
         "reviews": 102,
-        "image": "static/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg"
+        "image": "./static/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg"
       }
     ]
   },
   {
-    "news":[
+    "news": [
       {
-        "id":0,
-        "banner" :"featured",
+        "id": 0,
+        "banner": "featured",
         "author": "",
         "title": "How to make a healthy diet?",
         "text": "Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to yield a different taste.",
-        "image": "/static/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg",
-        "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+        "image": "./static/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg",
+        "youtubelink": "https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
         "alt": "pablo-merchan-montes",
-        "slug" :"healthy",
-        "list" : ["Pasta stats published in the International","Rice flour, or legumes such as bean", "Belgian family developed major food poisoning symptoms"]
+        "slug": "healthy",
+        "list": [
+          "Pasta stats published in the International",
+          "Rice flour, or legumes such as bean",
+          "Belgian family developed major food poisoning symptoms"
+        ]
       },
       {
-        "id":1,
-        "banner" :"featured",
+        "id": 1,
+        "banner": "featured",
         "title": "Happy living and happy eating tips?",
         "text": "By switching your washing machine temperature to 30°C, you are saving energy and cutting your utility bills too.\n\nWith the help of modern detergents, a lower setting will still provide excellent washing results and can save at least 40% of electrical energy.",
-        "image": "/static/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg",
-        "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+        "image": "./static/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg",
+        "youtubelink": "https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
         "alt": "stefan-johnson",
-        "slug" :"eating"
+        "slug": "eating"
       },
       {
-        "id":2,
-        "banner" :"promotions",
+        "id": 2,
+        "banner": "promotions",
         "title": "Is Coconut good for your health?",
-        "date":"12-April-2022",
+        "date": "12-April-2022",
         "text": "By switching your washing machine temperature to 30°C, you are saving energy and cutting your utility bills too.\n\nWith the help of modern detergents, a lower setting will still provide excellent washing results and can save at least 40% of electrical energy.",
-        "image": "/static/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg",
-        "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+        "image": "./static/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg",
+        "youtubelink": "https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
         "alt": "gilles-lambert",
-        "slug" :"coconut"
+        "slug": "coconut"
       },
       {
-        "id":3,
-        "banner" :"career",
+        "id": 3,
+        "banner": "career",
         "title": "How to run a sushi business?",
-        "date":"18-April-2022",
+        "date": "18-April-2022",
         "text": "By switching your washing machine temperature to 30°C, you are saving energy and cutting your utility bills too.\n\nWith the help of modern detergents, a lower setting will still provide excellent washing results and can save at least 40% of electrical energy.",
         "image": "/static/images/news/ella-olsson-mmnKI8kMxpc-unsplash.jpg",
-        "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+        "youtubelink": "https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
         "alt": "ella-olsson",
-        "slug" :"sushi"
+        "slug": "sushi"
       },
       {
-        "id":4,
-        "banner" :"meeting",
+        "id": 4,
+        "banner": "meeting",
         "title": "Learning a fine dining experience.",
-        "date":"30-April-2022",
+        "date": "30-April-2022",
         "text": "By switching your washing machine temperature to 30°C, you are saving energy and cutting your utility bills too.\n\nWith the help of modern detergents, a lower setting will still provide excellent washing results and can save at least 40% of electrical energy.",
-        "image": "/static/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg",
-        "youtubelink" :"https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
+        "image": "./static/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg",
+        "youtubelink": "https://www.youtube.com/embed/6vebbDZxoKE?controls=0",
         "alt": "louis-hansel",
-        "slug" :"dining"
+        "slug": "dining"
       }
-
     ]
   }
 ]

@@ -30,7 +30,7 @@ export default {
     // Create HTML file that includes reference to bundled JS.
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: path.join(__dirname, '/public/index.html'),
+      template: path.join(__dirname, './public/index.html'),
       inject: true,
     }),
     new MiniCssExtractPlugin({
@@ -148,7 +148,7 @@ export default {
     errorDetails: true,
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: ['.*', '.js', '.jsx'],
     alias: {
       Images: path.resolve(__dirname, './src/static/images/'),
       Fonts: path.resolve(__dirname, './src/static/fonts/'),

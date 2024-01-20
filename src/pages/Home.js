@@ -38,7 +38,7 @@ const Home = (props) => {
       <section
         className="BgImage"
         style={{
-          backgroundImage: `url(../static/images/alex-haney-CAhjZmVk5H4-unsplash.jpg)`,
+          backgroundImage: `url(./static/images/alex-haney-CAhjZmVk5H4-unsplash.jpg)`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',

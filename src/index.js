@@ -13,11 +13,12 @@ import News from './pages/News.js';
 import './static/css/bootstrap-icons.css';
 import './static/css/bootstrap.min.css';
 import './static/css/tooplate-crispy-kitchen.css';
-import MenuItems from './static/data/menu.json';
-import NewsItems from './static/data/news.json';
 import './static/js/jquery.min.js';
 import './static/js/bootstrap.bundle.min.js';
 import './static/js/custom.js';
+
+import MenuItems from './static/data/menu.json';
+import NewsItems from './static/data/news.json';
 
 const routing = (
   <Router>
