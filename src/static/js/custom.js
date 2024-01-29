@@ -1,11 +1,8 @@
+// (function ($) {
+//   //"use strict";
 
-  (function ($) {
-  
-  "use strict";
-
-    // NAVBAR
-    $('.navbar-nav .nav-link').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
-    
-  })(window.jQuery);
+//   // NAVBAR
+//   $('.navbar-nav .nav-link').click(function () {
+//     $('.navbar-collapse').collapse('hide');
+//   });
+// })(window.jQuery);

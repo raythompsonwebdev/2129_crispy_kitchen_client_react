@@ -52,10 +52,8 @@ function About() {
               <p>
                 You are NOT allowed to redistribute the template ZIP file on any
                 template donwnload website. Please{' '}
-                <a href="https://www.tooplate.com/contact" target="_blank">
-                  contact us
-                </a>{' '}
-                for more information.
+                <a href="https://www.tooplate.com/contact">contact us</a> for
+                more information.
               </p>
             </div>
           </div>

@@ -27,7 +27,7 @@ function CommentForm() {
   };
 
   return (
-    <form className="custom-form comment-form" onSubmit={submit} role="form">
+    <form className="custom-form comment-form" onSubmit={submit}>
       <input
         type="text"
         name="comment-name"

@@ -36,8 +36,7 @@ function NewsLetter() {
 
               <form
                 className="custom-form subscribe-form mt-4"
-                onSubmit={submit}
-                role="form">
+                onSubmit={submit}>
                 <input
                   type="email"
                   name="subscribe-email"

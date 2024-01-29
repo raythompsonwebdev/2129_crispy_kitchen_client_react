@@ -4,8 +4,7 @@ import BreakfastItem from '../components/Menu/BreakfastItem.js';
 import LunchItem from '../components/Menu/LunchItem.js';
 import DinnerItem from '../components/Menu/DinnerItem.js';
 
-function Menu(props) {
-  const { menu } = { ...props };
+function Menu({ menu }) {
   console.log(menu);
 
   const Breakfast = menu

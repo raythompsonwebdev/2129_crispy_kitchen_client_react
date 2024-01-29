@@ -33,8 +33,7 @@ const Contact = () => {
               <form
                 className="custom-form contact-form row"
                 action="#"
-                method="post"
-                role="form">
+                method="post">
                 <div className="col-lg-6 col-6">
                   <label htmlFor="contact-name" className="form-label">
                     Full Name

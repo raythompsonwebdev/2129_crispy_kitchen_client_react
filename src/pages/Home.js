@@ -5,8 +5,8 @@ import Hero from '../components/Home/Hero.js';
 import FeaturedNews from '../components/News/FeaturedNews.js';
 import EventNews from '../components/News/EventNews.js';
 
-const Home = (props) => {
-  const { menu, news, back } = { ...props };
+const Home = ({ menu, news, back }) => {
+  console.log(back);
 
   const Specials = menu
     .filter((item) => item.menutype === 'special')
