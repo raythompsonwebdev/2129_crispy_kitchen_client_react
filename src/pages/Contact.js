@@ -1,6 +1,4 @@
-//import { hot } from 'react-hot-loader/root';
 import React from 'react';
-//import Header from '../components/Header.js';
 import GoogleMap from '../components/GoogleMap.js';
 
 const Contact = () => {

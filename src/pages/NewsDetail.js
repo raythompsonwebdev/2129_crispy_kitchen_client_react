@@ -4,21 +4,13 @@ import EventNews from '../components/News/EventNews.js';
 import Newsletter from '../components/NewsLetter.js';
 import CommentSection from '../components/Comments/CommentSection.js';
 
-function NewsDetails(props) {
-  const { news } = { ...props };
+function NewsDetails({ news }) {
   const { id } = useParams();
 
-  //console.log(news, id);
-
   //const [singleNews, setSingleNews] = useState([]);
-
   const product = news.filter((item) => item.id === id);
 
   const [item] = product;
-
-  //setSingleNews(product);
-
-  console.log(item);
 
   const otherProducts = news
     .filter((item) => item.banner !== 'featured')

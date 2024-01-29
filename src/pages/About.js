@@ -1,6 +1,11 @@
 import React from 'react';
 import Subscribe from '../components/Subscribe.js';
 
+import memberOne from '../static/images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg';
+import memberTwo from '../static/images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg';
+import memberThree from '../static/images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg';
+import memberFour from '../static/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg';
+
 function About() {
   return (
     <main>
@@ -69,11 +74,7 @@ function About() {
 
             <div className="col-lg-4 col-12">
               <div className="team-thumb">
-                <img
-                  src="static/images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
-                  className="img-fluid team-image"
-                  alt=""
-                />
+                <img src={memberOne} className="img-fluid team-image" alt="" />
 
                 <div className="team-info">
                   <h4 className="mt-3 mb-0">Sophia</h4>
@@ -85,11 +86,7 @@ function About() {
 
             <div className="col-lg-4 col-12 my-lg-0 my-4">
               <div className="team-thumb">
-                <img
-                  src="static/images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg"
-                  className="img-fluid team-image"
-                  alt=""
-                />
+                <img src={memberTwo} className="img-fluid team-image" alt="" />
 
                 <h4 className="mt-3 mb-0">Benjamin W.</h4>
 
@@ -100,7 +97,7 @@ function About() {
             <div className="col-lg-4 col-12">
               <div className="team-thumb">
                 <img
-                  src="static/images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg"
+                  src={memberThree}
                   className="img-fluid team-image"
                   alt=""
                 />
@@ -119,7 +116,7 @@ function About() {
           <div className="row">
             <div className="col-lg-6 col-12">
               <img
-                src="static/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg"
+                src={memberFour}
                 className="img-fluid newsletter-image"
                 alt=""
               />

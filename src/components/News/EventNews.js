@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function EventNews(props) {
-  const { item } = { ...props };
+function EventNews({ item }) {
   const { id, banner, title, image, alt, date } = { ...item };
   return (
     <div className="col-lg-4 col-md-6 col-12">
