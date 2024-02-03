@@ -16,7 +16,7 @@ function EventNews({ item }) {
           <strong>{date}</strong>
 
           <h5 className="news-title mt-2">
-            <Link to="news-detail.html" className="news-title-link">
+            <Link to={`/news/${id}`} className="news-title-link">
               {title}
             </Link>
           </h5>

@@ -34,12 +34,12 @@ function About() {
                 by Tooplate website.
               </h4>
 
-              <a href="news.html" className="custom-btn btn btn-dark mt-3">
+              <a href="/news" className="custom-btn btn btn-dark mt-3">
                 Check out News
               </a>
 
               <a
-                href="contact.html"
+                href="/contact"
                 className="custom-btn btn btn-danger mt-3 ms-3">
                 Say Hi
               </a>
