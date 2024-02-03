@@ -1,24 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import EventNews from '../components/News/EventNews.js';
 import Newsletter from '../components/NewsLetter.js';
 import CommentSection from '../components/Comments/CommentSection.js';
 
-function NewsDetails(props) {
-  const { news } = { ...props };
+function NewsDetails({ news }) {
   const { id } = useParams();
 
-  //console.log(news, id);
-
   //const [singleNews, setSingleNews] = useState([]);
-
-  const product = news.filter((item) => item.id == id);
+  const product = news.filter((item) => item.id === id);
 
   const [item] = product;
-
-  //setSingleNews(product);
-
-  console.log(item);
 
   const otherProducts = news
     .filter((item) => item.banner !== 'featured')
@@ -70,7 +62,6 @@ function NewsDetails(props) {
                     height="315"
                     src={item.youtubelink}
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen></iframe>
                 </div>
@@ -80,10 +71,8 @@ function NewsDetails(props) {
                   Tooplate. You are free to use this layout for commercial
                   purposes. You are NOT allowed to redistribute the template ZIP
                   file on any template donwnload website. Please{' '}
-                  <a href="https://www.tooplate.com/contact" target="_blank">
-                    contact us
-                  </a>{' '}
-                  for more information.
+                  <a href="https://www.tooplate.com/contact">contact us</a> for
+                  more information.
                 </p>
 
                 <h5 className="mt-4 mb-3">{item.title}</h5>

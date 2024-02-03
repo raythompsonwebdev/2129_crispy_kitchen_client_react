@@ -2,13 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function FeaturedNews(props) {
-  const { item } = { ...props };
+function FeaturedNews({ item }) {
   const { banner, title, image, alt } = { ...item };
   return (
     <div className="col-lg-6 col-md-6 col-12">
       <div className="news-thumb mb-4">
-        <Link to="news-detail.html">
+        <Link to="news-detail">
           <img src={image} className="img-fluid news-image" alt={alt} />
         </Link>
 
@@ -16,7 +15,7 @@ function FeaturedNews(props) {
           <span className="category-tag bg-danger">{banner}</span>
 
           <h5 className="news-title mt-2">
-            <Link to="news-detail.html" className="news-title-link">
+            <Link to="news-detail" className="news-title-link">
               {title}
             </Link>
           </h5>

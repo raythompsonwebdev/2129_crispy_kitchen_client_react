@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function EventNews(props) {
-  const { item } = { ...props };
+function EventNews({ item }) {
   const { id, banner, title, image, alt, date } = { ...item };
   return (
     <div className="col-lg-4 col-md-6 col-12">
@@ -17,7 +16,7 @@ function EventNews(props) {
           <strong>{date}</strong>
 
           <h5 className="news-title mt-2">
-            <Link to="news-detail.html" className="news-title-link">
+            <Link to={`/news/${id}`} className="news-title-link">
               {title}
             </Link>
           </h5>

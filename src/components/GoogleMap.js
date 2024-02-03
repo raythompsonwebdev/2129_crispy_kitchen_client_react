@@ -9,6 +9,7 @@ function GoogleMap() {
         height="300"
         style={{ border: 0 }}
         allowFullScreen=""
+        title="re"
         loading="lazy"></iframe>
     </div>
   );

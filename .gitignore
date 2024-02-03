@@ -53,6 +53,7 @@ src/static/images/
 src/static/video/
 src/static/sass/
 src/static/js/jquery.min.js
+src/static/js/custom.js
 public/static/*
 buildScripts/generateMockData.js
 buildScripts/mockDataSchema.js

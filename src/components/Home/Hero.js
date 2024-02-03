@@ -1,4 +1,6 @@
 import React from 'react';
+import imageOne from '../../static/images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg';
+import videoOne from '../../static/video/production_ID_3769033.mp4';
 
 function Hero() {
   return (
@@ -35,7 +37,7 @@ function Hero() {
                 <div className="carousel-item active">
                   <div className="carousel-image-wrap">
                     <img
-                      src="static/images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                      src={imageOne}
                       className="img-fluid carousel-image"
                       alt=""
                     />
@@ -149,10 +151,7 @@ function Hero() {
           muted=""
           className="custom-video"
           poster="">
-          <source
-            src="../../static/video/production_ID_3769033.mp4"
-            type="video/mp4"
-          />
+          <source src={videoOne} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

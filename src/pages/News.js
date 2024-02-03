@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import FeaturedNews from '../components/News/FeaturedNews.js';
 import EventNews from '../components/News/EventNews.js';
-import NewsItems from '../static/data/news.json';
 
-function News() {
-  const FeaturedItem = NewsItems.filter(
-    (item) => item.banner === 'featured'
-  ).map((item) => <FeaturedNews item={item} key={item.id} />);
+function News({ news }) {
+  const FeaturedItem = news
+    .filter((item) => item.banner === 'featured')
+    .map((item) => <FeaturedNews item={item} key={item.id} />);
 
-  const EventItem = NewsItems.filter((item) => item.banner !== 'featured').map(
-    (item) => <EventNews item={item} key={item.id} />
-  );
+  const EventItem = news
+    .filter((item) => item.banner !== 'featured')
+    .map((item) => <EventNews item={item} key={item.id} />);
 
   return (
     <main>

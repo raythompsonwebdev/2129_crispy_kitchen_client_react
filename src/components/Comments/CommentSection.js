@@ -26,7 +26,7 @@ function CommentSection() {
                   non.
                 </p>
 
-                <a href="#">David Martin</a>
+                <a href="http://localhost:3000">David Martin</a>
               </div>
 
               <span className="ms-auto">14 hours ago</span>
@@ -44,7 +44,7 @@ function CommentSection() {
                   Quisque non libero ut mauris fermentum efficitur ac ut nibh.
                 </p>
 
-                <a href="#">Jessica Noel</a>
+                <a href="http://localhost:3000">Jessica Noel</a>
               </div>
 
               <span className="ms-auto">3 days ago</span>

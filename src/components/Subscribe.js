@@ -16,10 +16,7 @@ function Subscribe() {
     e.preventDefault();
   };
   return (
-    <form
-      className="custom-form subscribe-form mt-4"
-      onSubmit={submit}
-      role="form">
+    <form className="custom-form subscribe-form mt-4" onSubmit={submit}>
       <input
         type="email"
         name="subscribe-email"
